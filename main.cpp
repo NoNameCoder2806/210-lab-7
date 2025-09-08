@@ -55,7 +55,18 @@ int main()
 */
 string* reverseArray(string* str)      // Reverse the order of the array elements
 {
-    
+    // Declare another pointer to store the reverse array
+    string* rev = nullptr;
+    rev = new string[5];
+
+    // Iterate through the array starting from the back and swap the elements
+    for (int i = 0; i < ARRAY_SIZE; i++)
+    {
+        // Assign the values to the reverse array
+        *(rev + ARRAY_SIZE - i - 1) = *(str + i);
+    }
+
+    return rev;
 }
 
 /*
