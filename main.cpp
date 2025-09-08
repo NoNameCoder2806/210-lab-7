@@ -48,7 +48,7 @@ int main()
 
 // Function implementations
 /*
-    revsereArray()
+    reverseArray()
     Reverse the elements of the array
     Arguments: a pointer to a string array
     Returns: a string array pointer
