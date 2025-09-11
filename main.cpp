@@ -22,11 +22,11 @@ int main()
     arr = new string[ARRAY_SIZE];
 
     // Assign 5 names to the array
-    arr[0] = "Hoang";
-    arr[1] = "Adam";
-    arr[2] = "Brian";
-    arr[3] = "Victor";
-    arr[4] = "Aiden";
+    *(arr + 0) = "Hoang";
+    *(arr + 1) = "Adam";
+    *(arr + 2) = "Brian";
+    *(arr + 3) = "Victor";
+    *(arr + 4) = "Aiden";
 
     // Display the original array
     cout << "Original array: ";
